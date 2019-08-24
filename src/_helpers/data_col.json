@@ -1,0 +1,2702 @@
+[
+  [
+    {
+      "content": "public static final Biome ocean                = new Biome(\"Ocean\",                       0, BiomeColor.from(  0,   0, 112",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 0,
+      "endPos": 122
+    },
+    {
+      "content": "ocean",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 26,
+      "endPos": 31
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 90,
+      "endPos": 91
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 111,
+      "endPos": 112
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 116,
+      "endPos": 117
+    },
+    {
+      "content": "112",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 119,
+      "endPos": 122
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome plains               = new Biome(\"Plains\",                      1, BiomeColor.from(141, 179,  96",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 144,
+      "endPos": 266
+    },
+    {
+      "content": "plains",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 170,
+      "endPos": 176
+    },
+    {
+      "content": "1",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 234,
+      "endPos": 235
+    },
+    {
+      "content": "141",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 253,
+      "endPos": 256
+    },
+    {
+      "content": "179",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 258,
+      "endPos": 261
+    },
+    {
+      "content": "96",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 264,
+      "endPos": 266
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome desert               = new Biome(\"Desert\",                      2, BiomeColor.from(250, 148,  24",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 289,
+      "endPos": 411
+    },
+    {
+      "content": "desert",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 315,
+      "endPos": 321
+    },
+    {
+      "content": "2",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 379,
+      "endPos": 380
+    },
+    {
+      "content": "250",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 398,
+      "endPos": 401
+    },
+    {
+      "content": "148",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 403,
+      "endPos": 406
+    },
+    {
+      "content": "24",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 409,
+      "endPos": 411
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome extremeHills         = new Biome(\"Extreme Hills\",               3, BiomeColor.from( 96,  96,  96",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 439,
+      "endPos": 561
+    },
+    {
+      "content": "extremeHills",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 465,
+      "endPos": 477
+    },
+    {
+      "content": "3",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 529,
+      "endPos": 530
+    },
+    {
+      "content": "96",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 549,
+      "endPos": 551
+    },
+    {
+      "content": "96",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 554,
+      "endPos": 556
+    },
+    {
+      "content": "96",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 559,
+      "endPos": 561
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome forest               = new Biome(\"Forest\",                      4, BiomeColor.from(  5, 102,  33",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 587,
+      "endPos": 709
+    },
+    {
+      "content": "forest",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 613,
+      "endPos": 619
+    },
+    {
+      "content": "4",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 677,
+      "endPos": 678
+    },
+    {
+      "content": "5",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 698,
+      "endPos": 699
+    },
+    {
+      "content": "102",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 701,
+      "endPos": 704
+    },
+    {
+      "content": "33",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 707,
+      "endPos": 709
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome taiga                = new Biome(\"Taiga\",                       5, BiomeColor.from( 11, 102,  89",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 732,
+      "endPos": 854
+    },
+    {
+      "content": "taiga",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 758,
+      "endPos": 763
+    },
+    {
+      "content": "5",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 822,
+      "endPos": 823
+    },
+    {
+      "content": "11",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 842,
+      "endPos": 844
+    },
+    {
+      "content": "102",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 846,
+      "endPos": 849
+    },
+    {
+      "content": "89",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 852,
+      "endPos": 854
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome swampland            = new Biome(\"Swampland\",                   6, BiomeColor.from(  7, 249, 178",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 883,
+      "endPos": 1005
+    },
+    {
+      "content": "swampland",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 909,
+      "endPos": 918
+    },
+    {
+      "content": "6",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 973,
+      "endPos": 974
+    },
+    {
+      "content": "7",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 994,
+      "endPos": 995
+    },
+    {
+      "content": "249",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 997,
+      "endPos": 1000
+    },
+    {
+      "content": "178",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 1002,
+      "endPos": 1005
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome river                = new Biome(\"River\",                       7, BiomeColor.from(  0,   0, 255",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1031,
+      "endPos": 1153
+    },
+    {
+      "content": "river",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1057,
+      "endPos": 1062
+    },
+    {
+      "content": "7",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1121,
+      "endPos": 1122
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 1142,
+      "endPos": 1143
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 1147,
+      "endPos": 1148
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 1150,
+      "endPos": 1153
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome hell                 = new Biome(\"Hell\",                        8, BiomeColor.from(255,   0,   0",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1175,
+      "endPos": 1297
+    },
+    {
+      "content": "hell",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1201,
+      "endPos": 1205
+    },
+    {
+      "content": "8",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1265,
+      "endPos": 1266
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 1284,
+      "endPos": 1287
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 1291,
+      "endPos": 1292
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 1296,
+      "endPos": 1297
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome theEnd               = new Biome(\"The End\",                     9, BiomeColor.from(128, 128, 255",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1320,
+      "endPos": 1442
+    },
+    {
+      "content": "theEnd",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1346,
+      "endPos": 1352
+    },
+    {
+      "content": "9",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1410,
+      "endPos": 1411
+    },
+    {
+      "content": "128",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 1429,
+      "endPos": 1432
+    },
+    {
+      "content": "128",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 1434,
+      "endPos": 1437
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 1439,
+      "endPos": 1442
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome frozenOcean          = new Biome(\"Frozen Ocean\",               10, BiomeColor.from(112, 112, 214",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1465,
+      "endPos": 1587
+    },
+    {
+      "content": "frozenOcean",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1491,
+      "endPos": 1502
+    },
+    {
+      "content": "10",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1554,
+      "endPos": 1556
+    },
+    {
+      "content": "112",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 1574,
+      "endPos": 1577
+    },
+    {
+      "content": "112",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 1579,
+      "endPos": 1582
+    },
+    {
+      "content": "214",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 1584,
+      "endPos": 1587
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome frozenRiver          = new Biome(\"Frozen River\",               11, BiomeColor.from(160, 160, 255",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1609,
+      "endPos": 1731
+    },
+    {
+      "content": "frozenRiver",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1635,
+      "endPos": 1646
+    },
+    {
+      "content": "11",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1698,
+      "endPos": 1700
+    },
+    {
+      "content": "160",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 1718,
+      "endPos": 1721
+    },
+    {
+      "content": "160",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 1723,
+      "endPos": 1726
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 1728,
+      "endPos": 1731
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome icePlains            = new Biome(\"Ice Plains\",                 12, BiomeColor.from(255, 255, 255",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1753,
+      "endPos": 1875
+    },
+    {
+      "content": "icePlains",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1779,
+      "endPos": 1788
+    },
+    {
+      "content": "12",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1842,
+      "endPos": 1844
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 1862,
+      "endPos": 1865
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 1867,
+      "endPos": 1870
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 1872,
+      "endPos": 1875
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome iceMountains         = new Biome(\"Ice Mountains\",              13, BiomeColor.from(160, 160, 160",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 1903,
+      "endPos": 2025
+    },
+    {
+      "content": "iceMountains",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 1929,
+      "endPos": 1941
+    },
+    {
+      "content": "13",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 1992,
+      "endPos": 1994
+    },
+    {
+      "content": "160",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 2012,
+      "endPos": 2015
+    },
+    {
+      "content": "160",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 2017,
+      "endPos": 2020
+    },
+    {
+      "content": "160",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 2022,
+      "endPos": 2025
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome mushroomIsland       = new Biome(\"Mushroom Island\",            14, BiomeColor.from(255,   0, 255",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2047,
+      "endPos": 2169
+    },
+    {
+      "content": "mushroomIsland",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2073,
+      "endPos": 2087
+    },
+    {
+      "content": "14",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2136,
+      "endPos": 2138
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 2156,
+      "endPos": 2159
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 2163,
+      "endPos": 2164
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 2166,
+      "endPos": 2169
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome mushroomIslandShore  = new Biome(\"Mushroom Island Shore\",      15, BiomeColor.from(160,   0, 255",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2192,
+      "endPos": 2314
+    },
+    {
+      "content": "mushroomIslandShore",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2218,
+      "endPos": 2237
+    },
+    {
+      "content": "15",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2281,
+      "endPos": 2283
+    },
+    {
+      "content": "160",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 2301,
+      "endPos": 2304
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 2308,
+      "endPos": 2309
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 2311,
+      "endPos": 2314
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome beach                = new Biome(\"Beach\",                      16, BiomeColor.from(250, 222,  85",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2336,
+      "endPos": 2458
+    },
+    {
+      "content": "beach",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2362,
+      "endPos": 2367
+    },
+    {
+      "content": "16",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2425,
+      "endPos": 2427
+    },
+    {
+      "content": "250",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 2445,
+      "endPos": 2448
+    },
+    {
+      "content": "222",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 2450,
+      "endPos": 2453
+    },
+    {
+      "content": "85",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 2456,
+      "endPos": 2458
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome desertHills          = new Biome(\"Desert Hills\",               17, BiomeColor.from(210,  95,  18",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2480,
+      "endPos": 2602
+    },
+    {
+      "content": "desertHills",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2506,
+      "endPos": 2517
+    },
+    {
+      "content": "17",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2569,
+      "endPos": 2571
+    },
+    {
+      "content": "210",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 2589,
+      "endPos": 2592
+    },
+    {
+      "content": "95",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 2595,
+      "endPos": 2597
+    },
+    {
+      "content": "18",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 2600,
+      "endPos": 2602
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome forestHills          = new Biome(\"Forest Hills\",               18, BiomeColor.from( 34,  85,  28",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2624,
+      "endPos": 2746
+    },
+    {
+      "content": "forestHills",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2650,
+      "endPos": 2661
+    },
+    {
+      "content": "18",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2713,
+      "endPos": 2715
+    },
+    {
+      "content": "34",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 2734,
+      "endPos": 2736
+    },
+    {
+      "content": "85",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 2739,
+      "endPos": 2741
+    },
+    {
+      "content": "28",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 2744,
+      "endPos": 2746
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome taigaHills           = new Biome(\"Taiga Hills\",                19, BiomeColor.from( 22,  57,  51",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2768,
+      "endPos": 2890
+    },
+    {
+      "content": "taigaHills",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2794,
+      "endPos": 2804
+    },
+    {
+      "content": "19",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 2857,
+      "endPos": 2859
+    },
+    {
+      "content": "22",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 2878,
+      "endPos": 2880
+    },
+    {
+      "content": "57",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 2883,
+      "endPos": 2885
+    },
+    {
+      "content": "51",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 2888,
+      "endPos": 2890
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome extremeHillsEdge     = new Biome(\"Extreme Hills Edge\",         20, BiomeColor.from(114, 120, 154",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 2912,
+      "endPos": 3034
+    },
+    {
+      "content": "extremeHillsEdge",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 2938,
+      "endPos": 2954
+    },
+    {
+      "content": "20",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3001,
+      "endPos": 3003
+    },
+    {
+      "content": "114",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 3021,
+      "endPos": 3024
+    },
+    {
+      "content": "120",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 3026,
+      "endPos": 3029
+    },
+    {
+      "content": "154",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 3031,
+      "endPos": 3034
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome jungle               = new Biome(\"Jungle\",                     21, BiomeColor.from( 83, 123,   9",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3069,
+      "endPos": 3191
+    },
+    {
+      "content": "jungle",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3095,
+      "endPos": 3101
+    },
+    {
+      "content": "21",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3158,
+      "endPos": 3160
+    },
+    {
+      "content": "83",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 3179,
+      "endPos": 3181
+    },
+    {
+      "content": "123",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 3183,
+      "endPos": 3186
+    },
+    {
+      "content": "9",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 3190,
+      "endPos": 3191
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome jungleHills          = new Biome(\"Jungle Hills\",               22, BiomeColor.from( 44,  66,   5",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3214,
+      "endPos": 3336
+    },
+    {
+      "content": "jungleHills",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3240,
+      "endPos": 3251
+    },
+    {
+      "content": "22",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3303,
+      "endPos": 3305
+    },
+    {
+      "content": "44",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 3324,
+      "endPos": 3326
+    },
+    {
+      "content": "66",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 3329,
+      "endPos": 3331
+    },
+    {
+      "content": "5",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 3335,
+      "endPos": 3336
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome jungleEdge           = new Biome(\"Jungle Edge\",                23, BiomeColor.from( 98, 139,  23",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3358,
+      "endPos": 3480
+    },
+    {
+      "content": "jungleEdge",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3384,
+      "endPos": 3394
+    },
+    {
+      "content": "23",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3447,
+      "endPos": 3449
+    },
+    {
+      "content": "98",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 3468,
+      "endPos": 3470
+    },
+    {
+      "content": "139",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 3472,
+      "endPos": 3475
+    },
+    {
+      "content": "23",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 3478,
+      "endPos": 3480
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome deepOcean            = new Biome(\"Deep Ocean\",                 24, BiomeColor.from(  0,   0,  48",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3503,
+      "endPos": 3625
+    },
+    {
+      "content": "deepOcean",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3529,
+      "endPos": 3538
+    },
+    {
+      "content": "24",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3592,
+      "endPos": 3594
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 3614,
+      "endPos": 3615
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 3619,
+      "endPos": 3620
+    },
+    {
+      "content": "48",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 3623,
+      "endPos": 3625
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome stoneBeach           = new Biome(\"Stone Beach\",                25, BiomeColor.from(162, 162, 132",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3652,
+      "endPos": 3774
+    },
+    {
+      "content": "stoneBeach",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3678,
+      "endPos": 3688
+    },
+    {
+      "content": "25",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3741,
+      "endPos": 3743
+    },
+    {
+      "content": "162",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 3761,
+      "endPos": 3764
+    },
+    {
+      "content": "162",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 3766,
+      "endPos": 3769
+    },
+    {
+      "content": "132",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 3771,
+      "endPos": 3774
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome coldBeach            = new Biome(\"Cold Beach\",                 26, BiomeColor.from(250, 240, 192",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3803,
+      "endPos": 3925
+    },
+    {
+      "content": "coldBeach",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3829,
+      "endPos": 3838
+    },
+    {
+      "content": "26",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 3892,
+      "endPos": 3894
+    },
+    {
+      "content": "250",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 3912,
+      "endPos": 3915
+    },
+    {
+      "content": "240",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 3917,
+      "endPos": 3920
+    },
+    {
+      "content": "192",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 3922,
+      "endPos": 3925
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome birchForest          = new Biome(\"Birch Forest\",               27, BiomeColor.from( 48, 116,  68",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 3947,
+      "endPos": 4069
+    },
+    {
+      "content": "birchForest",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 3973,
+      "endPos": 3984
+    },
+    {
+      "content": "27",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 4036,
+      "endPos": 4038
+    },
+    {
+      "content": "48",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 4057,
+      "endPos": 4059
+    },
+    {
+      "content": "116",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 4061,
+      "endPos": 4064
+    },
+    {
+      "content": "68",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 4067,
+      "endPos": 4069
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome birchForestHills     = new Biome(\"Birch Forest Hills\",         28, BiomeColor.from( 31,  95,  50",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 4092,
+      "endPos": 4214
+    },
+    {
+      "content": "birchForestHills",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 4118,
+      "endPos": 4134
+    },
+    {
+      "content": "28",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 4181,
+      "endPos": 4183
+    },
+    {
+      "content": "31",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 4202,
+      "endPos": 4204
+    },
+    {
+      "content": "95",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 4207,
+      "endPos": 4209
+    },
+    {
+      "content": "50",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 4212,
+      "endPos": 4214
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome roofedForest         = new Biome(\"Roofed Forest\",              29, BiomeColor.from( 64,  81,  26",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 4236,
+      "endPos": 4358
+    },
+    {
+      "content": "roofedForest",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 4262,
+      "endPos": 4274
+    },
+    {
+      "content": "29",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 4325,
+      "endPos": 4327
+    },
+    {
+      "content": "64",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 4346,
+      "endPos": 4348
+    },
+    {
+      "content": "81",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 4351,
+      "endPos": 4353
+    },
+    {
+      "content": "26",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 4356,
+      "endPos": 4358
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome coldTaiga            = new Biome(\"Cold Taiga\",                 30, BiomeColor.from( 49,  85,  74",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 4381,
+      "endPos": 4503
+    },
+    {
+      "content": "coldTaiga",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 4407,
+      "endPos": 4416
+    },
+    {
+      "content": "30",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 4470,
+      "endPos": 4472
+    },
+    {
+      "content": "49",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 4491,
+      "endPos": 4493
+    },
+    {
+      "content": "85",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 4496,
+      "endPos": 4498
+    },
+    {
+      "content": "74",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 4501,
+      "endPos": 4503
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome coldTaigaHills       = new Biome(\"Cold Taiga Hills\",           31, BiomeColor.from( 36,  63,  54",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 4532,
+      "endPos": 4654
+    },
+    {
+      "content": "coldTaigaHills",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 4558,
+      "endPos": 4572
+    },
+    {
+      "content": "31",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 4621,
+      "endPos": 4623
+    },
+    {
+      "content": "36",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 4642,
+      "endPos": 4644
+    },
+    {
+      "content": "63",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 4647,
+      "endPos": 4649
+    },
+    {
+      "content": "54",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 4652,
+      "endPos": 4654
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome megaTaiga            = new Biome(\"Mega Taiga\",                 32, BiomeColor.from( 89, 102,  81",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 4676,
+      "endPos": 4798
+    },
+    {
+      "content": "megaTaiga",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 4702,
+      "endPos": 4711
+    },
+    {
+      "content": "32",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 4765,
+      "endPos": 4767
+    },
+    {
+      "content": "89",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 4786,
+      "endPos": 4788
+    },
+    {
+      "content": "102",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 4790,
+      "endPos": 4793
+    },
+    {
+      "content": "81",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 4796,
+      "endPos": 4798
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome megaTaigaHills       = new Biome(\"Mega Taiga Hills\",           33, BiomeColor.from( 69,  79,  62",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 4827,
+      "endPos": 4949
+    },
+    {
+      "content": "megaTaigaHills",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 4853,
+      "endPos": 4867
+    },
+    {
+      "content": "33",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 4916,
+      "endPos": 4918
+    },
+    {
+      "content": "69",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 4937,
+      "endPos": 4939
+    },
+    {
+      "content": "79",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 4942,
+      "endPos": 4944
+    },
+    {
+      "content": "62",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 4947,
+      "endPos": 4949
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome extremeHillsPlus     = new Biome(\"Extreme Hills+\",             34, BiomeColor.from( 80, 112,  80",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 4971,
+      "endPos": 5093
+    },
+    {
+      "content": "extremeHillsPlus",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 4997,
+      "endPos": 5013
+    },
+    {
+      "content": "34",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 5060,
+      "endPos": 5062
+    },
+    {
+      "content": "80",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 5081,
+      "endPos": 5083
+    },
+    {
+      "content": "112",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 5085,
+      "endPos": 5088
+    },
+    {
+      "content": "80",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 5091,
+      "endPos": 5093
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome savanna              = new Biome(\"Savanna\",                    35, BiomeColor.from(189, 178,  95",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 5119,
+      "endPos": 5241
+    },
+    {
+      "content": "savanna",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 5145,
+      "endPos": 5152
+    },
+    {
+      "content": "35",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 5208,
+      "endPos": 5210
+    },
+    {
+      "content": "189",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 5228,
+      "endPos": 5231
+    },
+    {
+      "content": "178",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 5233,
+      "endPos": 5236
+    },
+    {
+      "content": "95",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 5239,
+      "endPos": 5241
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome savannaPlateau       = new Biome(\"Savanna Plateau\",            36, BiomeColor.from(167, 157, 100",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 5269,
+      "endPos": 5391
+    },
+    {
+      "content": "savannaPlateau",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 5295,
+      "endPos": 5309
+    },
+    {
+      "content": "36",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 5358,
+      "endPos": 5360
+    },
+    {
+      "content": "167",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 5378,
+      "endPos": 5381
+    },
+    {
+      "content": "157",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 5383,
+      "endPos": 5386
+    },
+    {
+      "content": "100",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 5388,
+      "endPos": 5391
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome mesa                 = new Biome(\"Mesa\",                       37, BiomeColor.from(217,  69,  21",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 5415,
+      "endPos": 5537
+    },
+    {
+      "content": "mesa",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 5441,
+      "endPos": 5445
+    },
+    {
+      "content": "37",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 5504,
+      "endPos": 5506
+    },
+    {
+      "content": "217",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 5524,
+      "endPos": 5527
+    },
+    {
+      "content": "69",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 5530,
+      "endPos": 5532
+    },
+    {
+      "content": "21",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 5535,
+      "endPos": 5537
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome mesaPlateauF         = new Biome(\"Mesa Plateau F\",             38, BiomeColor.from(176, 151, 101",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 5560,
+      "endPos": 5682
+    },
+    {
+      "content": "mesaPlateauF",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 5586,
+      "endPos": 5598
+    },
+    {
+      "content": "38",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 5649,
+      "endPos": 5651
+    },
+    {
+      "content": "176",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 5669,
+      "endPos": 5672
+    },
+    {
+      "content": "151",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 5674,
+      "endPos": 5677
+    },
+    {
+      "content": "101",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 5679,
+      "endPos": 5682
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome mesaPlateau          = new Biome(\"Mesa Plateau\",               39, BiomeColor.from(202, 140, 101",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 5706,
+      "endPos": 5828
+    },
+    {
+      "content": "mesaPlateau",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 5732,
+      "endPos": 5743
+    },
+    {
+      "content": "39",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 5795,
+      "endPos": 5797
+    },
+    {
+      "content": "202",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 5815,
+      "endPos": 5818
+    },
+    {
+      "content": "140",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 5820,
+      "endPos": 5823
+    },
+    {
+      "content": "101",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 5825,
+      "endPos": 5828
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome theEndLow            = new Biome(\"The End - Floating islands\", 40, BiomeColor.from(128, 128, 255",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 5852,
+      "endPos": 5974
+    },
+    {
+      "content": "theEndLow",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 5878,
+      "endPos": 5887
+    },
+    {
+      "content": "40",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 5941,
+      "endPos": 5943
+    },
+    {
+      "content": "128",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 5961,
+      "endPos": 5964
+    },
+    {
+      "content": "128",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 5966,
+      "endPos": 5969
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 5971,
+      "endPos": 5974
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome theEndMedium         = new Biome(\"The End - Medium island\"   , 41, BiomeColor.from(128, 128, 255",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 5997,
+      "endPos": 6119
+    },
+    {
+      "content": "theEndMedium",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 6023,
+      "endPos": 6035
+    },
+    {
+      "content": "41",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 6086,
+      "endPos": 6088
+    },
+    {
+      "content": "128",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 6106,
+      "endPos": 6109
+    },
+    {
+      "content": "128",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 6111,
+      "endPos": 6114
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 6116,
+      "endPos": 6119
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome theEndHigh           = new Biome(\"The End - High island\"     , 42, BiomeColor.from(128, 128, 255",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 6142,
+      "endPos": 6264
+    },
+    {
+      "content": "theEndHigh",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 6168,
+      "endPos": 6178
+    },
+    {
+      "content": "42",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 6231,
+      "endPos": 6233
+    },
+    {
+      "content": "128",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 6251,
+      "endPos": 6254
+    },
+    {
+      "content": "128",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 6256,
+      "endPos": 6259
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 6261,
+      "endPos": 6264
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome theEndBarren         = new Biome(\"The End - Barren island\"   , 43, BiomeColor.from(128, 128, 255",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 6287,
+      "endPos": 6409
+    },
+    {
+      "content": "theEndBarren",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 6313,
+      "endPos": 6325
+    },
+    {
+      "content": "43",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 6376,
+      "endPos": 6378
+    },
+    {
+      "content": "128",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 6396,
+      "endPos": 6399
+    },
+    {
+      "content": "128",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 6401,
+      "endPos": 6404
+    },
+    {
+      "content": "255",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 6406,
+      "endPos": 6409
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome warmOcean            = new Biome(\"Warm Ocean\"                , 44, BiomeColor.from(  0,   0, 172",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 6433,
+      "endPos": 6555
+    },
+    {
+      "content": "warmOcean",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 6459,
+      "endPos": 6468
+    },
+    {
+      "content": "44",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 6522,
+      "endPos": 6524
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 6544,
+      "endPos": 6545
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 6549,
+      "endPos": 6550
+    },
+    {
+      "content": "172",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 6552,
+      "endPos": 6555
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome lukewarmOcean        = new Biome(\"Lukewarm Ocean\"            , 45, BiomeColor.from(  0,   0, 144",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 6577,
+      "endPos": 6699
+    },
+    {
+      "content": "lukewarmOcean",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 6603,
+      "endPos": 6616
+    },
+    {
+      "content": "45",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 6666,
+      "endPos": 6668
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 6688,
+      "endPos": 6689
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 6693,
+      "endPos": 6694
+    },
+    {
+      "content": "144",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 6696,
+      "endPos": 6699
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome coldOcean            = new Biome(\"Cold Ocean\"                , 46, BiomeColor.from( 32,  32, 112",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 6721,
+      "endPos": 6843
+    },
+    {
+      "content": "coldOcean",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 6747,
+      "endPos": 6756
+    },
+    {
+      "content": "46",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 6810,
+      "endPos": 6812
+    },
+    {
+      "content": "32",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 6831,
+      "endPos": 6833
+    },
+    {
+      "content": "32",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 6836,
+      "endPos": 6838
+    },
+    {
+      "content": "112",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 6840,
+      "endPos": 6843
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome warmDeepOcean        = new Biome(\"Warm Deep Ocean\"           , 47, BiomeColor.from(  0,   0,  80",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 6865,
+      "endPos": 6987
+    },
+    {
+      "content": "warmDeepOcean",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 6891,
+      "endPos": 6904
+    },
+    {
+      "content": "47",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 6954,
+      "endPos": 6956
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 6976,
+      "endPos": 6977
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 6981,
+      "endPos": 6982
+    },
+    {
+      "content": "80",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 6985,
+      "endPos": 6987
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome lukewarmDeepOcean    = new Biome(\"Lukewarm Deep Ocean\"       , 48, BiomeColor.from(  0,   0,  64",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 7009,
+      "endPos": 7131
+    },
+    {
+      "content": "lukewarmDeepOcean",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 7035,
+      "endPos": 7052
+    },
+    {
+      "content": "48",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 7098,
+      "endPos": 7100
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 7120,
+      "endPos": 7121
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 7125,
+      "endPos": 7126
+    },
+    {
+      "content": "64",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 7129,
+      "endPos": 7131
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome coldDeepOcean        = new Biome(\"Cold Deep Ocean\"           , 49, BiomeColor.from( 32,  32,  56",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 7153,
+      "endPos": 7275
+    },
+    {
+      "content": "coldDeepOcean",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 7179,
+      "endPos": 7192
+    },
+    {
+      "content": "49",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 7242,
+      "endPos": 7244
+    },
+    {
+      "content": "32",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 7263,
+      "endPos": 7265
+    },
+    {
+      "content": "32",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 7268,
+      "endPos": 7270
+    },
+    {
+      "content": "56",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 7273,
+      "endPos": 7275
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome frozenDeepOcean      = new Biome(\"Frozen Deep Ocean\"         , 50, BiomeColor.from( 64,  64, 144",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 7297,
+      "endPos": 7419
+    },
+    {
+      "content": "frozenDeepOcean",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 7323,
+      "endPos": 7338
+    },
+    {
+      "content": "50",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 7386,
+      "endPos": 7388
+    },
+    {
+      "content": "64",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 7407,
+      "endPos": 7409
+    },
+    {
+      "content": "64",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 7412,
+      "endPos": 7414
+    },
+    {
+      "content": "144",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 7416,
+      "endPos": 7419
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome theVoid              = new Biome(\"The Void\",                  127, BiomeColor.from(  0,   0,   0",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 7442,
+      "endPos": 7564
+    },
+    {
+      "content": "theVoid",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 7468,
+      "endPos": 7475
+    },
+    {
+      "content": "127",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 7530,
+      "endPos": 7533
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 7553,
+      "endPos": 7554
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 7558,
+      "endPos": 7559
+    },
+    {
+      "content": "0",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 7563,
+      "endPos": 7564
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome bambooJungle         = new Biome(\"Bamboo Jungle\",             168, BiomeColor.from(118, 142,  20",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 9766,
+      "endPos": 9888
+    },
+    {
+      "content": "bambooJungle",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 9792,
+      "endPos": 9804
+    },
+    {
+      "content": "168",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 9854,
+      "endPos": 9857
+    },
+    {
+      "content": "118",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 9875,
+      "endPos": 9878
+    },
+    {
+      "content": "142",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 9880,
+      "endPos": 9883
+    },
+    {
+      "content": "20",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 9886,
+      "endPos": 9888
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome bambooJungleHills    = new Biome(\"Bamboo Jungle Hills\",       169, BiomeColor.from(59,  71,  10",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 9911,
+      "endPos": 10032
+    },
+    {
+      "content": "bambooJungleHills",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 9937,
+      "endPos": 9954
+    },
+    {
+      "content": "169",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 9999,
+      "endPos": 10002
+    },
+    {
+      "content": "59",
+      "isParticipating": true,
+      "groupNum": 3,
+      "groupName": 3,
+      "startPos": 10020,
+      "endPos": 10022
+    },
+    {
+      "content": "71",
+      "isParticipating": true,
+      "groupNum": 4,
+      "groupName": 4,
+      "startPos": 10025,
+      "endPos": 10027
+    },
+    {
+      "content": "10",
+      "isParticipating": true,
+      "groupNum": 5,
+      "groupName": 5,
+      "startPos": 10030,
+      "endPos": 10032
+    }
+  ]
+]

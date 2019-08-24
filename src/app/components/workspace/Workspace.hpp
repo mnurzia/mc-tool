@@ -1,0 +1,6 @@
+#ifndef APP_COMPONENTS_WORKSPACE_WORKSPACE_HPP
+#define APP_COMPONENTS_WORKSPACE_WORKSPACE_HPP
+
+#include <filesystem>
+
+#endif

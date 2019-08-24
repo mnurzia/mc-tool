@@ -1,0 +1,4 @@
+- Fix flickering dock
+- Better icons
+- Theme Chooser
+- Debug Menu

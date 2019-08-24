@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{D18E6C29-40C5-4482-8FE8-F220478DC8FF}</ProjectGuid>
+    <RootNamespace>biomeplus</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)build\bin\$(Configuration)\$(PlatformShortName)\</OutDir>
+    <IntDir>$(SolutionDir)build\obj\$(Configuration)\$(PlatformShortName)\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)_$(PlatformShortName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)build\bin\$(Configuration)\$(PlatformShortName)\</OutDir>
+    <IntDir>$(SolutionDir)build\obj\$(Configuration)\$(PlatformShortName)\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)_$(PlatformShortName)</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)build\bin\$(Configuration)\$(PlatformShortName)\</OutDir>
+    <IntDir>$(SolutionDir)build\obj\$(Configuration)\$(PlatformShortName)\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)_$(PlatformShortName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)build\bin\$(Configuration)\$(PlatformShortName)\</OutDir>
+    <IntDir>$(SolutionDir)build\obj\$(Configuration)\$(PlatformShortName)\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)_$(PlatformShortName)</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\maxnu\Code\biomeplus\ext\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;freetype.lib;libz-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)ext\lib\$(PlatformShortName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\maxnu\Code\biomeplus\ext\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;freetype.lib;libz-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)ext\lib\$(PlatformShortName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Custom</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\maxnu\Code\biomeplus\ext\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <StringPooling>true</StringPooling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;freetype.lib;libz-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)ext\lib\$(PlatformShortName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ShowProgress>NotSet</ShowProgress>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <LinkTimeCodeGeneration>UseFastLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Custom</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\maxnu\Code\biomeplus\ext\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <StringPooling>true</StringPooling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;freetype.lib;libz-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)ext\lib\$(PlatformShortName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ShowProgress>NotSet</ShowProgress>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <LinkTimeCodeGeneration>UseFastLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ext\include\fmt\src\format.cc" />
+    <ClCompile Include="ext\include\fmt\src\posix.cc" />
+    <ClCompile Include="ext\include\glad\glad.c" />
+    <ClCompile Include="ext\include\imgui\examples\imgui_impl_glfw.cpp" />
+    <ClCompile Include="ext\include\imgui\examples\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="ext\include\imgui\imgui.cpp" />
+    <ClCompile Include="ext\include\imgui\imgui_demo.cpp" />
+    <ClCompile Include="ext\include\imgui\imgui_draw.cpp" />
+    <ClCompile Include="ext\include\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="ext\include\imgui\misc\cpp\imgui_stdlib.cpp" />
+    <ClCompile Include="ext\include\imgui_textedit\imgui_textedit.cpp" />
+    <ClCompile Include="ext\include\spdlog\spdlog.cpp" />
+    <ClCompile Include="src\app\App.cpp" />
+    <ClCompile Include="src\app\components\functioneditor\FunctionEditor.cpp" />
+    <ClCompile Include="src\app\components\functioneditor\LangDef.cpp" />
+    <ClCompile Include="src\app\components\hexeditor\HexEditor.cpp" />
+    <ClCompile Include="src\app\components\javarng\JavaRng.cpp" />
+    <ClCompile Include="src\app\components\logview\LogView.cpp" />
+    <ClCompile Include="src\app\components\logview\Sink.cpp" />
+    <ClCompile Include="src\app\components\menubar\MenuBar.cpp" />
+    <ClCompile Include="src\app\components\nbtview\NBTView.cpp" />
+    <ClCompile Include="src\app\components\nbtview\schema\Annotator.cpp" />
+    <ClCompile Include="src\app\components\newdialogs\NewWorldView.cpp" />
+    <ClCompile Include="src\app\components\PersistentWindowComponent.cpp" />
+    <ClCompile Include="src\app\components\threadstatus\ThreadStatus.cpp" />
+    <ClCompile Include="src\app\components\UIComponent.cpp" />
+    <ClCompile Include="src\app\components\uuidgen\UUIDGen.cpp" />
+    <ClCompile Include="src\app\components\WindowComponent.cpp" />
+    <ClCompile Include="src\app\components\workspace\Workspace.cpp" />
+    <ClCompile Include="src\app\components\worldview\WorldView.cpp" />
+    <ClCompile Include="src\app\components\worldview\Fragment.cpp" />
+    <ClCompile Include="src\app\components\worldview\FragmentManager.cpp" />
+    <ClCompile Include="src\app\components\worldview\FragmentShaders.cpp" />
+    <ClCompile Include="src\app\components\worldview\FragmentTask.cpp" />
+    <ClCompile Include="src\app\dispatchqueue\DispatchQueue.cpp" />
+    <ClCompile Include="src\app\dispatchqueue\Task.cpp" />
+    <ClCompile Include="src\app\dispatchqueue\TaskGroup.cpp" />
+    <ClCompile Include="src\app\components\fontmanager\FontManager.cpp" />
+    <ClCompile Include="src\app\ImGuiEx.cpp" />
+    <ClCompile Include="src\app\resource\container\Container.cpp" />
+    <ClCompile Include="src\app\resource\handle\Handle.cpp" />
+    <ClCompile Include="src\app\resource\Manager.cpp" />
+    <ClCompile Include="src\app\resource\provider\Provider.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\nbt\Deserializer.cpp" />
+    <ClCompile Include="src\nbt\Loader.cpp" />
+    <ClCompile Include="src\nbt\SerialBase.cpp" />
+    <ClCompile Include="src\nbt\Serializer.cpp" />
+    <ClCompile Include="src\nbt\Tag.cpp" />
+    <ClCompile Include="src\nbt\TagByte.cpp" />
+    <ClCompile Include="src\nbt\TagByteArray.cpp" />
+    <ClCompile Include="src\nbt\TagCompound.cpp" />
+    <ClCompile Include="src\nbt\TagDouble.cpp" />
+    <ClCompile Include="src\nbt\TagFloat.cpp" />
+    <ClCompile Include="src\nbt\TagInt.cpp" />
+    <ClCompile Include="src\nbt\TagIntArray.cpp" />
+    <ClCompile Include="src\nbt\TagList.cpp" />
+    <ClCompile Include="src\nbt\TagLong.cpp" />
+    <ClCompile Include="src\nbt\TagLongArray.cpp" />
+    <ClCompile Include="src\nbt\TagRoot.cpp" />
+    <ClCompile Include="src\nbt\TagShort.cpp" />
+    <ClCompile Include="src\nbt\TagString.cpp" />
+    <ClCompile Include="src\util\Color.cpp" />
+    <ClCompile Include="src\util\UUID.cpp" />
+    <ClCompile Include="src\worldgen\Biome.cpp" />
+    <ClCompile Include="src\worldgen\Feature.cpp" />
+    <ClCompile Include="src\worldgen\Generator.cpp" />
+    <ClCompile Include="src\worldgen\Layer.cpp" />
+    <ClCompile Include="src\worldgen\Map.cpp" />
+    <ClCompile Include="src\worldgen\OceanGen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\app\App.hpp" />
+    <ClInclude Include="src\app\components\functioneditor\FunctionEditor.hpp" />
+    <ClInclude Include="src\app\components\functioneditor\LangDef.hpp" />
+    <ClInclude Include="src\app\components\hexeditor\HexEditor.hpp" />
+    <ClInclude Include="src\app\components\javarng\JavaRng.hpp" />
+    <ClInclude Include="src\app\components\logview\LogView.hpp" />
+    <ClInclude Include="src\app\components\logview\Sink.hpp" />
+    <ClInclude Include="src\app\components\menubar\MenuBar.hpp" />
+    <ClInclude Include="src\app\components\nbtview\NBTView.hpp" />
+    <ClInclude Include="src\app\components\nbtview\schema\Annotator.hpp" />
+    <ClInclude Include="src\app\components\newdialogs\NewWorldView.hpp" />
+    <ClInclude Include="src\app\components\PersistentWindowComponent.hpp" />
+    <ClInclude Include="src\app\components\threadstatus\ThreadStatus.hpp" />
+    <ClInclude Include="src\app\components\UIComponent.hpp" />
+    <ClInclude Include="src\app\components\uuidgen\UUIDGen.hpp" />
+    <ClInclude Include="src\app\components\WindowComponent.hpp" />
+    <ClInclude Include="src\app\components\workspace\Workspace.hpp" />
+    <ClInclude Include="src\app\components\worldview\WorldView.hpp" />
+    <ClInclude Include="src\app\components\worldview\Fragment.hpp" />
+    <ClInclude Include="src\app\components\worldview\FragmentManager.hpp" />
+    <ClInclude Include="src\app\components\worldview\FragmentShaders.hpp" />
+    <ClInclude Include="src\app\components\worldview\FragmentTask.hpp" />
+    <ClInclude Include="src\app\dispatchqueue\DispatchQueue.hpp" />
+    <ClInclude Include="src\app\dispatchqueue\Task.hpp" />
+    <ClInclude Include="src\app\dispatchqueue\TaskGroup.hpp" />
+    <ClInclude Include="src\app\components\fontmanager\FontManager.hpp" />
+    <ClInclude Include="src\app\Icons.hpp" />
+    <ClInclude Include="src\app\ImGuiEx.hpp" />
+    <ClInclude Include="src\app\resource\container\Container.hpp" />
+    <ClInclude Include="src\app\resource\handle\Handle.hpp" />
+    <ClInclude Include="src\app\resource\Manager.hpp" />
+    <ClInclude Include="src\app\resource\provider\Provider.hpp" />
+    <ClInclude Include="src\nbt\Deserializer.hpp" />
+    <ClInclude Include="src\nbt\Loader.hpp" />
+    <ClInclude Include="src\nbt\SerialBase.hpp" />
+    <ClInclude Include="src\nbt\Serializer.hpp" />
+    <ClInclude Include="src\nbt\Tag.hpp" />
+    <ClInclude Include="src\nbt\TagByte.hpp" />
+    <ClInclude Include="src\nbt\TagByteArray.hpp" />
+    <ClInclude Include="src\nbt\TagCompound.hpp" />
+    <ClInclude Include="src\nbt\TagDouble.hpp" />
+    <ClInclude Include="src\nbt\TagFloat.hpp" />
+    <ClInclude Include="src\nbt\TagInt.hpp" />
+    <ClInclude Include="src\nbt\TagIntArray.hpp" />
+    <ClInclude Include="src\nbt\TagList.hpp" />
+    <ClInclude Include="src\nbt\TagLong.hpp" />
+    <ClInclude Include="src\nbt\TagLongArray.hpp" />
+    <ClInclude Include="src\nbt\TagRoot.hpp" />
+    <ClInclude Include="src\nbt\TagShort.hpp" />
+    <ClInclude Include="src\nbt\TagString.hpp" />
+    <ClInclude Include="src\util\Color.hpp" />
+    <ClInclude Include="src\util\UUID.hpp" />
+    <ClInclude Include="src\worldgen\Biome.hpp" />
+    <ClInclude Include="src\worldgen\Feature.hpp" />
+    <ClInclude Include="src\worldgen\Generator.hpp" />
+    <ClInclude Include="src\worldgen\JavaRandom.hpp" />
+    <ClInclude Include="src\worldgen\Layer.hpp" />
+    <ClInclude Include="src\worldgen\Map.hpp" />
+    <ClInclude Include="src\worldgen\OceanGen.hpp" />
+    <ClInclude Include="src\worldgen\_BiomeData.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,548 @@
+[
+  [
+    {
+      "content": "public static final Biome sunflowerPlains      = new Biome(\"Sunflower Plains\",          plains",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 7588,
+      "endPos": 7682
+    },
+    {
+      "content": "sunflowerPlains",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 7614,
+      "endPos": 7629
+    },
+    {
+      "content": "plains",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 7676,
+      "endPos": 7682
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome desertM              = new Biome(\"Desert M\",                  desert",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 7686,
+      "endPos": 7780
+    },
+    {
+      "content": "desertM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 7712,
+      "endPos": 7719
+    },
+    {
+      "content": "desert",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 7774,
+      "endPos": 7780
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome extremeHillsM        = new Biome(\"Extreme Hills M\",           extremeHills",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 7784,
+      "endPos": 7884
+    },
+    {
+      "content": "extremeHillsM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 7810,
+      "endPos": 7823
+    },
+    {
+      "content": "extremeHills",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 7872,
+      "endPos": 7884
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome flowerForest         = new Biome(\"Flower Forest\",             forest",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 7888,
+      "endPos": 7982
+    },
+    {
+      "content": "flowerForest",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 7914,
+      "endPos": 7926
+    },
+    {
+      "content": "forest",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 7976,
+      "endPos": 7982
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome taigaM               = new Biome(\"Taiga M\",                   taiga",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 7986,
+      "endPos": 8079
+    },
+    {
+      "content": "taigaM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 8012,
+      "endPos": 8018
+    },
+    {
+      "content": "taiga",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 8074,
+      "endPos": 8079
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome swamplandM           = new Biome(\"Swampland M\",               swampland",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 8083,
+      "endPos": 8180
+    },
+    {
+      "content": "swamplandM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 8109,
+      "endPos": 8119
+    },
+    {
+      "content": "swampland",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 8171,
+      "endPos": 8180
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome icePlainsSpikes      = new Biome(\"Ice Plains Spikes\",         icePlains,",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 8184,
+      "endPos": 8282
+    },
+    {
+      "content": "icePlainsSpikes",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 8210,
+      "endPos": 8225
+    },
+    {
+      "content": "icePlains,",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 8272,
+      "endPos": 8282
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome jungleM              = new Biome(\"Jungle M\",                  jungle",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 8326,
+      "endPos": 8420
+    },
+    {
+      "content": "jungleM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 8352,
+      "endPos": 8359
+    },
+    {
+      "content": "jungle",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 8414,
+      "endPos": 8420
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome jungleEdgeM          = new Biome(\"Jungle Edge M\",             jungleEdge",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 8424,
+      "endPos": 8522
+    },
+    {
+      "content": "jungleEdgeM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 8450,
+      "endPos": 8461
+    },
+    {
+      "content": "jungleEdge",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 8512,
+      "endPos": 8522
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome birchForestM         = new Biome(\"Birch Forest M\",            birchForest",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 8526,
+      "endPos": 8625
+    },
+    {
+      "content": "birchForestM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 8552,
+      "endPos": 8564
+    },
+    {
+      "content": "birchForest",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 8614,
+      "endPos": 8625
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome birchForestHillsM    = new Biome(\"Birch Forest Hills M\",      birchForestHills",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 8629,
+      "endPos": 8733
+    },
+    {
+      "content": "birchForestHillsM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 8655,
+      "endPos": 8672
+    },
+    {
+      "content": "birchForestHills",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 8717,
+      "endPos": 8733
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome roofedForestM        = new Biome(\"Roofed Forest M\",           roofedForest",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 8737,
+      "endPos": 8837
+    },
+    {
+      "content": "roofedForestM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 8763,
+      "endPos": 8776
+    },
+    {
+      "content": "roofedForest",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 8825,
+      "endPos": 8837
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome coldTaigaM           = new Biome(\"Cold Taiga M\",              coldTaiga",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 8841,
+      "endPos": 8938
+    },
+    {
+      "content": "coldTaigaM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 8867,
+      "endPos": 8877
+    },
+    {
+      "content": "coldTaiga",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 8929,
+      "endPos": 8938
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome megaSpruceTaiga      = new Biome(\"Mega Spruce Taiga\",         megaTaiga",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 8942,
+      "endPos": 9039
+    },
+    {
+      "content": "megaSpruceTaiga",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 8968,
+      "endPos": 8983
+    },
+    {
+      "content": "megaTaiga",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 9030,
+      "endPos": 9039
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome megaSpurceTaigaHills = new Biome(\"Mega Spruce Taiga (Hills)\", megaTaigaHills",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 9043,
+      "endPos": 9145
+    },
+    {
+      "content": "megaSpurceTaigaHills",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 9069,
+      "endPos": 9089
+    },
+    {
+      "content": "megaTaigaHills",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 9131,
+      "endPos": 9145
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome extremeHillsPlusM    = new Biome(\"Extreme Hills+ M\",          extremeHillsPlus",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 9149,
+      "endPos": 9253
+    },
+    {
+      "content": "extremeHillsPlusM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 9175,
+      "endPos": 9192
+    },
+    {
+      "content": "extremeHillsPlus",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 9237,
+      "endPos": 9253
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome savannaM             = new Biome(\"Savanna M\",                 savanna",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 9257,
+      "endPos": 9352
+    },
+    {
+      "content": "savannaM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 9283,
+      "endPos": 9291
+    },
+    {
+      "content": "savanna",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 9345,
+      "endPos": 9352
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome savannaPlateauM      = new Biome(\"Savanna Plateau M\",         savannaPlateau",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 9356,
+      "endPos": 9458
+    },
+    {
+      "content": "savannaPlateauM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 9382,
+      "endPos": 9397
+    },
+    {
+      "content": "savannaPlateau",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 9444,
+      "endPos": 9458
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome mesaBryce            = new Biome(\"Mesa (Bryce)\",              mesa",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 9462,
+      "endPos": 9554
+    },
+    {
+      "content": "mesaBryce",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 9488,
+      "endPos": 9497
+    },
+    {
+      "content": "mesa",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 9550,
+      "endPos": 9554
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome mesaPlateauFM        = new Biome(\"Mesa Plateau F M\",          mesaPlateauF",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 9558,
+      "endPos": 9658
+    },
+    {
+      "content": "mesaPlateauFM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 9584,
+      "endPos": 9597
+    },
+    {
+      "content": "mesaPlateauF",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 9646,
+      "endPos": 9658
+    }
+  ],
+  [
+    {
+      "content": "public static final Biome mesaPlateauM         = new Biome(\"Mesa Plateau M\",            mesaPlateau",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 9662,
+      "endPos": 9761
+    },
+    {
+      "content": "mesaPlateauM",
+      "isParticipating": true,
+      "groupNum": 1,
+      "groupName": 1,
+      "startPos": 9688,
+      "endPos": 9700
+    },
+    {
+      "content": "mesaPlateau",
+      "isParticipating": true,
+      "groupNum": 2,
+      "groupName": 2,
+      "startPos": 9750,
+      "endPos": 9761
+    }
+  ]
+]
