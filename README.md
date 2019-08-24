@@ -1,4 +1,4 @@
-# mc-inspector
+# mc-tool
 Experimental seed viewer / NBT editor / Data Pack IDE for Minecraft JE 1.14 (or something)
 
 I'm going to be starting school soon so don't expect too much in the coming months :(
