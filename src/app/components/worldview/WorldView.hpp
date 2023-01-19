@@ -12,10 +12,10 @@ namespace App::Components::WorldView {
 	class WorldView : public UIComponent {
 
 		FragmentManager fmgr;
-		glm::vec2 offset;
-		glm::vec2 click;
-		glm::vec2 vel;
-		glm::vec2 mouse;
+		glm::vec2 offset = glm::vec2(0, 0);
+		glm::vec2 click = glm::vec2(0, 0);
+		glm::vec2 vel = glm::vec2(0, 0);
+		glm::vec2 mouse = glm::vec2(0, 0);
 		bool lock_offset = false;
 		bool draw_grid = true;
 		bool draw_grid_labels = true;

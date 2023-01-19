@@ -29,7 +29,6 @@ namespace App::Components::WorldView {
 		bool rebuild_palette = false;
 		GLuint palette_texture = 0;
 		bool palette_enable[256];
-		uint32_t palette_colors[256];
 		uint8_t palette_ocean_mode = 0;
 		uint8_t palette_land_mode = 0;
 		int64_t current_time = 0;
@@ -40,6 +39,8 @@ namespace App::Components::WorldView {
 		Util::UUID id;
 
 	public:
+
+		uint32_t palette_colors[256];
 
 		FragmentManager(App& app_, int64_t seed);
 

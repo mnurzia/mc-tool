@@ -20,14 +20,15 @@ namespace App::Components::WorldView {
 	}
 
 	void Fragment::compress() {
-		int32_t* in = (int32_t*)data;
+		uint32_t* in = (uint32_t*)data;
 		for (int32_t y = 0; y < 1024; y++) {
 			for (int32_t x = 0; x < 1024; x++) {
-				uint8_t temp = uint8_t(in[y * 1024 + x]);
-				data[y * 1024 + x] = temp;
+				//uint8_t temp = uint8_t(in[y * 1024 + x]);
+				//data[y * 1024 + x] = temp;
+				in[y * 1024 + x] = parent->palette_colors[in[(y * 1024 + x)] % 256];
 			}
 		}
-		data = (uint8_t*)realloc(data, sizeof(uint8_t) * 1024 * 1024);
+		//data = (uint8_t*)realloc(data, sizeof(uint8_t) * 1024 * 1024);
 	}
 
 	void Fragment::genSlimeChunks() {
@@ -151,7 +152,7 @@ namespace App::Components::WorldView {
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-		glTexImage2D(GL_TEXTURE_2D, 0, GL_RED, 1024, 1024, 0, GL_RED, GL_UNSIGNED_BYTE, data);
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, 1024, 1024, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
 		schk_texture = 0;
 		glGenTextures(1, &schk_texture);
 		glBindTexture(GL_TEXTURE_2D, schk_texture);
@@ -189,17 +190,17 @@ namespace App::Components::WorldView {
 		GLint last_program = 0;
 		GLint last_texture = 0;
 		GLint last_active = 0;
-		glGetIntegerv(GL_CURRENT_PROGRAM, &last_program);
+		//glGetIntegerv(GL_CURRENT_PROGRAM, &last_program);
 		glGetIntegerv(GL_TEXTURE_BINDING_2D, &last_texture);
 		glGetIntegerv(GL_ACTIVE_TEXTURE, &last_active);
-		glUseProgram(shaders_loaded->getShaderID());
+		//glUseProgram(shaders_loaded->getShaderID());
 		glUniformMatrix4fv(glGetUniformLocation(shaders_loaded->getShaderID(), "proj_mtx"), 1, GL_FALSE, &ortho_projection[0][0]);
 		glActiveTexture(GL_TEXTURE0);
 		glBindTexture(GL_TEXTURE_2D, cur->out_texture);
 		glActiveTexture(GL_TEXTURE1);
 		glBindTexture(GL_TEXTURE_1D, cur->parent->getPalette());
 		glDrawElementsBaseVertex(GL_TRIANGLES, (GLsizei)cmd->ElemCount, sizeof(ImDrawIdx) == 2 ? GL_UNSIGNED_SHORT : GL_UNSIGNED_INT, (void*)(intptr_t)(cmd->IdxOffset * sizeof(ImDrawIdx)), (GLint)cmd->VtxOffset);
-		glUseProgram(last_program);
+		//glUseProgram(last_program);
 		glActiveTexture(last_active);
 		glBindTexture(GL_TEXTURE_2D, last_texture);
 	}

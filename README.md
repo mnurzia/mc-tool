@@ -1,4 +1,6 @@
 # mc-tool
+![screenshot of seed finder](https://i.imgur.com/WF8EF7H.png)
+
 Experimental seed viewer / NBT editor / Data Pack IDE for Minecraft JE 1.14
 
 This is about 3-5x faster than AMIDST (the leading competitive seed-finder) and shows twice the resolution.
