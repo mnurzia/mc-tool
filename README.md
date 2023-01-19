@@ -1,8 +1,10 @@
 # mc-tool
-Experimental seed viewer / NBT editor / Data Pack IDE for Minecraft JE 1.14 (or something)
+Experimental seed viewer / NBT editor / Data Pack IDE for Minecraft JE 1.14
 
-I'm going to be starting school soon so don't expect too much in the coming months :(
+This is about 3-5x faster than AMIDST (the leading competitive seed-finder) and shows twice the resolution.
 
-It is, however, something like 3-5x faster than AMIDST and shows twice the resolution, so it's got that going
+I used the reverse engineered and optimized algorithms from [cubiomes](https://github.com/Cubitect/cubiomes/) to generate most of the terrain. I manually reverse-engineered certain terrain passes.
 
-I used the reverse engineered and optimized algorithms from [cubiomes](https://github.com/Cubitect/cubiomes/) to generate most of the terrain, but I had to implement the structure finding methods myself and also wrote the NBT viewer from scratch. I know next to nothing about OpenGL so the texture loading is pretty unoptimized as well. If you're able to get this compiled, hats off
+I had to reverse some of the structure finding methods myself as well, particularly the newer ones.
+
+In addition, there is a from-scratch NBT viewer written.

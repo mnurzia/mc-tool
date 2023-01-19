@@ -5,7 +5,7 @@
 namespace App::Components::WorldView {
 
 	static char const* FRAG_FRAG =
-		"#version 450 core\n"
+		"#version 410 core\n"
 		"in vec2 frag_tex_coord;\n"
 		"in vec4 frag_color;\n"
 		"uniform sampler2D frag_texture;\n"
@@ -15,7 +15,7 @@ namespace App::Components::WorldView {
 		"    final_color = frag_color * texture(frag_palette, texture(frag_texture, frag_tex_coord).r);\n"
 		"}\n";
 	static char const* FRAG_VERT = 
-		"#version 450 core\n"
+		"#version 410 core\n"
 		"layout (location = 0) in vec2 vert_pos;\n"
 		"layout (location = 1) in vec2 vert_tex_coord;\n"
 		"layout (location = 2) in vec4 vert_color;\n"

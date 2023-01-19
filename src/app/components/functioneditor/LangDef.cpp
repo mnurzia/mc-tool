@@ -181,12 +181,12 @@ namespace App::Components::FunctionEditor {
 			};
 			for (auto& k : identifiers) {
 				TextEditor::Identifier id;
-				id.mCustomColor = TextEditor::PaletteIndex::Identifier;
+				//id.mCustomColor = TextEditor::PaletteIndex::Identifier;
 				lang_def.mIdentifiers.insert(std::make_pair(std::string(k), id));
 			}
 			for (auto& k : mcf_selectors) {
 				TextEditor::Identifier id;
-				id.mCustomColor = TextEditor::PaletteIndex::KnownIdentifier;
+				//id.mCustomColor = TextEditor::PaletteIndex::KnownIdentifier;
 				lang_def.mIdentifiers.insert(std::make_pair(std::string(k), id));
 			}
 

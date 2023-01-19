@@ -24,16 +24,16 @@ namespace App::Components::HexEditor {
 			setSize(ImVec2(680, 350));
 			int8_t size = sizeof(T);
 			if (size == 1) {
-				mem_edit.PreviewDataType = mem_edit.DataType_S8;
+				mem_edit.PreviewDataType = ImGuiDataType_S8;
 			} else if (size == 2) {
-				mem_edit.PreviewDataType = mem_edit.DataType_S16;
+				mem_edit.PreviewDataType = ImGuiDataType_S16;
 			} else if (size == 4) {
-				mem_edit.PreviewDataType = mem_edit.DataType_S32;
+				mem_edit.PreviewDataType = ImGuiDataType_S32;
 			} else if (size == 8) {
-				mem_edit.PreviewDataType = mem_edit.DataType_S64;
+				mem_edit.PreviewDataType = ImGuiDataType_S64;
 			}
 			if (!std::is_signed<T>()) {
-				mem_edit.PreviewDataType = (MemoryEditor::DataType)(((int8_t)mem_edit.PreviewDataType) + 1);
+				mem_edit.PreviewDataType = (ImGuiDataType)(((int8_t)mem_edit.PreviewDataType) + 1);
 			}
 			mem_edit.OptShowOptions = false;
 			mem_edit.OptMidColsCount = sizeof(T);

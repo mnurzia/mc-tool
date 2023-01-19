@@ -2,15 +2,16 @@
 
 #include <cstdio>
 #include <cstdlib>
+#include <string_view>
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
 #include <imgui/imgui.h>
-#include <imgui/examples/imgui_impl_glfw.h>
-#include <imgui/examples/imgui_impl_opengl3.h>
-#include <imgui/imgui_freetype.h>
-#include <imgui/imgui_freetype.cpp>
+#include <imgui/backends/imgui_impl_glfw.h>
+#include <imgui/backends/imgui_impl_opengl3.h>
+#include <imgui/misc/freetype/imgui_freetype.h>
+#include <imgui/misc/freetype/imgui_freetype.cpp>
 
 #include <spdlog/sinks/stdout_color_sinks.h>
 
@@ -78,7 +79,7 @@ namespace App {
 			exit(1);
 		}
 		logger->info("Initialized GLFW.");
-		logger->info("OpenGL Version: {}", glGetString(GL_VERSION));
+		logger->info("OpenGL Version: {}", std::string_view((const char*)glGetString(GL_VERSION)));
 	}
 
 	void App::initImGui() {
@@ -88,11 +89,11 @@ namespace App {
 		ImGuiIO& io = ImGui::GetIO(); (void)io;
 		io.IniFilename = NULL;
 		io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;       // Enable Keyboard Controls
-		//io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;      // Enable Gamepad Controls
+		io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;      // Enable Gamepad Controls
 		io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;           // Enable Docking
 		io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;         // Enable Multi-Viewport / Platform Windows
-		//io.ConfigViewportsNoAutoMerge = true;
-		//io.ConfigViewportsNoTaskBarIcon = true;
+		io.ConfigViewportsNoAutoMerge = true;
+		io.ConfigViewportsNoTaskBarIcon = true;
 		// Setup Dear ImGui style
 		ImGui::StyleColorsDark();
 		//ImGui::StyleColorsClassic();
@@ -140,8 +141,8 @@ namespace App {
 		colors[ImGuiCol_TabActive] = ImVec4(0.30f, 0.30f, 0.33f, 1.00f);
 		colors[ImGuiCol_TabUnfocused] = ImVec4(0.12f, 0.12f, 0.12f, 0.97f);
 		colors[ImGuiCol_TabUnfocusedActive] = ImVec4(0.18f, 0.18f, 0.19f, 1.00f);
-		colors[ImGuiCol_DockingPreview] = ImVec4(0.26f, 0.59f, 0.98f, 0.50f);
-		colors[ImGuiCol_DockingEmptyBg] = ImVec4(0.20f, 0.20f, 0.20f, 1.00f);
+		//colors[ImGuiCol_DockingPreview] = ImVec4(0.26f, 0.59f, 0.98f, 0.50f);
+		//colors[ImGuiCol_DockingEmptyBg] = ImVec4(0.20f, 0.20f, 0.20f, 1.00f);
 		colors[ImGuiCol_PlotLines] = ImVec4(0.61f, 0.61f, 0.61f, 1.00f);
 		colors[ImGuiCol_PlotLinesHovered] = ImVec4(1.00f, 0.43f, 0.35f, 1.00f);
 		colors[ImGuiCol_PlotHistogram] = ImVec4(0.90f, 0.70f, 0.00f, 1.00f);
@@ -181,8 +182,7 @@ namespace App {
 		log_viewer = new Components::LogView::LogView(this);
 		addComponent(std::unique_ptr<UIComponent>(new Components::ThreadStatus::ThreadStatus(this)));
 		addComponent(std::unique_ptr<UIComponent>(new Components::MenuBar::MenuBar(this)));
-		addComponent(std::unique_ptr<UIComponent>(new Components::NBTView::NBTView(this, "assets/map_5.dat")));
-		addComponent(std::unique_ptr<UIComponent>(new Components::FunctionEditor::FunctionEditor(this)));
+		//addComponent(std::unique_ptr<UIComponent>(new Components::NBTView::NBTView(this, "assets/map_5.dat")));
 	}
 
 	void App::run() {

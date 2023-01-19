@@ -1,6 +1,6 @@
 #include "SerialBase.hpp"
 
-#include <varargs.h>
+#include <stdarg.h>
 
 namespace NBT {
 
@@ -27,7 +27,7 @@ namespace NBT {
 		}
 		printf(": ");
 		va_list args;
-		va_start(args);
+		va_start(args, fmt);
 		vprintf(fmt, args);
 		va_end(args);
 		exit(1);

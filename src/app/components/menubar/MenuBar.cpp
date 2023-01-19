@@ -10,7 +10,7 @@
 #include "../newdialogs/NewWorldView.hpp"
 #include "../fontmanager/FontManager.hpp"
 #include "../uuidgen/UUIDGen.hpp"
-#include "../javarng/JavaRNG.hpp"
+#include "../javarng/JavaRng.hpp"
 #include "../logview/LogView.hpp"
 
 namespace App::Components::MenuBar {

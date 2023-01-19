@@ -1,7 +1,7 @@
 #include "FontManager.hpp"
 
 #include <imgui/imgui.h>
-#include <imgui/imgui_freetype.h>
+#include <imgui/misc/freetype/imgui_freetype.h>
 #include <stb_image.h>
 
 #include "../../ImGuiEx.hpp"
@@ -16,7 +16,7 @@ namespace App::Components::FontManager {
 		font_padding = 1;
 		font_flags = 0;
 		ImGuiIO io = ImGui::GetIO();
-		io.Fonts->AddFontFromFileTTF("C:\\Windows\\Fonts\\segoeui.ttf", scale * 16);
+		io.Fonts->AddFontFromFileTTF("/System/Library/Fonts/HelveticaNeue.ttc", scale * 16);
 		reserveIconAtlas(16, APP_ICONS_MIN, APP_ICONS_MAX);
 		ImGuiEx::LoadCodeFont(scale);
 		logger->info("Loaded {} fonts.", io.Fonts->Fonts.size());
@@ -45,7 +45,7 @@ namespace App::Components::FontManager {
 		io.Fonts->GetTexDataAsRGBA32(&tex_pixels, &tex_width, &tex_height);
 		for (int i = min - APP_ICONS_MIN; i < max - APP_ICONS_MIN; i++) {
 			int rect_id = rect_ids[i];
-			if (const ImFontAtlas::CustomRect * rect = io.Fonts->GetCustomRectByIndex(rect_id)) {
+			if (const ImFontAtlasCustomRect * rect = io.Fonts->GetCustomRectByIndex(rect_id)) {
 				int atlas_y = (rect_id / atl_width);
 				int atlas_x = (rect_id % atl_width);
 				ImU32* atlas_ptr = ((ImU32*)atlas_pixels) + (isize * isize * atlas_y * atl_width) + (isize * atlas_x);
@@ -73,7 +73,7 @@ namespace App::Components::FontManager {
 		for (int n = 0; n < io.Fonts->ConfigData.Size; n++) {
 			ImFontConfig* font_config = (ImFontConfig*)& io.Fonts->ConfigData[n];
 			font_config->RasterizerMultiply = font_multiply;
-			font_config->RasterizerFlags = (build_mode == FontBuildMode::FREETYPE) ? font_flags : 0x00;
+			//font_config->RasterizerFlags = (build_mode == FontBuildMode::FREETYPE) ? font_flags : 0x00;
 		}
 		if (build_mode == FontBuildMode::FREETYPE) {
 			ImGuiFreeType::BuildFontAtlas(io.Fonts, font_flags);
@@ -94,14 +94,14 @@ namespace App::Components::FontManager {
 		want_rebuild |= ImGui::DragFloat("Multiply", &font_multiply, 0.001f, 0.0f, 2.0f);
 		want_rebuild |= ImGui::DragInt("Padding", &font_padding, 0.1f, 0, 16);
 		if (build_mode == FontBuildMode::FREETYPE) {
-			want_rebuild |= ImGui::CheckboxFlags("NoHinting", &font_flags, ImGuiFreeType::NoHinting);
-			want_rebuild |= ImGui::CheckboxFlags("NoAutoHint", &font_flags, ImGuiFreeType::NoAutoHint);
-			want_rebuild |= ImGui::CheckboxFlags("ForceAutoHint", &font_flags, ImGuiFreeType::ForceAutoHint);
-			want_rebuild |= ImGui::CheckboxFlags("LightHinting", &font_flags, ImGuiFreeType::LightHinting);
-			want_rebuild |= ImGui::CheckboxFlags("MonoHinting", &font_flags, ImGuiFreeType::MonoHinting);
-			want_rebuild |= ImGui::CheckboxFlags("Bold", &font_flags, ImGuiFreeType::Bold);
-			want_rebuild |= ImGui::CheckboxFlags("Oblique", &font_flags, ImGuiFreeType::Oblique);
-			want_rebuild |= ImGui::CheckboxFlags("Monochrome", &font_flags, ImGuiFreeType::Monochrome);
+			want_rebuild |= ImGui::CheckboxFlags("NoHinting", &font_flags, ImGuiFreeTypeBuilderFlags_NoHinting);
+			want_rebuild |= ImGui::CheckboxFlags("NoAutoHint", &font_flags, ImGuiFreeTypeBuilderFlags_NoAutoHint);
+			want_rebuild |= ImGui::CheckboxFlags("ForceAutoHint", &font_flags, ImGuiFreeTypeBuilderFlags_ForceAutoHint);
+			want_rebuild |= ImGui::CheckboxFlags("LightHinting", &font_flags, ImGuiFreeTypeBuilderFlags_LightHinting);
+			want_rebuild |= ImGui::CheckboxFlags("MonoHinting", &font_flags, ImGuiFreeTypeBuilderFlags_MonoHinting);
+			want_rebuild |= ImGui::CheckboxFlags("Bold", &font_flags, ImGuiFreeTypeBuilderFlags_Bold);
+			want_rebuild |= ImGui::CheckboxFlags("Oblique", &font_flags, ImGuiFreeTypeBuilderFlags_Oblique);
+			want_rebuild |= ImGui::CheckboxFlags("Monochrome", &font_flags, ImGuiFreeTypeBuilderFlags_Monochrome);
 		}
 		want_rebuild |= ImGui::DragFloat("Scale", &scale, 0.1f, 0.5f, 8.0f);
 	}

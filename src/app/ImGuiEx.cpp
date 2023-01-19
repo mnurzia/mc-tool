@@ -83,6 +83,15 @@ namespace App::ImGuiEx {
 		ImGui::SameLine();
 	}
 
+	void MenuIcon(const char* icon_string, ImU32 col) {
+		float sz = ImGui::GetTextLineHeight();
+		ImDrawList* draw_list = ImGui::GetWindowDrawList();
+		glm::vec2 curpos = ImGui::GetCursorScreenPos();
+		draw_list->AddText(curpos, col, icon_string);
+		ImGui::Dummy(ImVec2(sz, sz));
+		ImGui::SameLine();
+	}
+
 	void MenuIcon(ImU32 col) {
 		float sz = ImGui::GetTextLineHeight();
 		ImDrawList* draw_list = ImGui::GetWindowDrawList();
@@ -103,7 +112,7 @@ namespace App::ImGuiEx {
 	}
 
 	void LoadCodeFont(float scale) {
-		code_font = ImGui::GetIO().Fonts->AddFontFromFileTTF("C:\\Windows\\Fonts\\ltype.ttf", 15*scale);
+		code_font = ImGui::GetIO().Fonts->AddFontFromFileTTF("/Users/maxnu/Library/Fonts/HelveticaNeueLTCom-Roman.ttf", 15*scale);
 	}
 
 	void BeginCode() {

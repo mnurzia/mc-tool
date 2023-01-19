@@ -8,17 +8,15 @@ namespace App::ImGuiEx {
 	struct Icon {
 		int8_t type = -1;
 		union {
-			struct _string {
+			struct {
 				const char* start;
 				const char* end;
-			};
-			_string string;
-			struct _texture {
+			} string;
+			struct {
 				ImTextureID tex_id;
 				ImVec2 uva;
 				ImVec2 uvb;
-			};
-			_texture texture;
+			} texture;
 		};
 		ImU32 color = IM_COL32(255, 255, 255, 255);
 

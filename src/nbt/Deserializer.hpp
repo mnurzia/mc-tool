@@ -7,7 +7,7 @@
 #include <string>
 #include <vector>
 
-#include <zlib/zlib.h>
+#include <zlib.h>
 
 #include "SerialBase.hpp"
 

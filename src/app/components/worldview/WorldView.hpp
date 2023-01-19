@@ -5,6 +5,8 @@
 #include "../UIComponent.hpp"
 #include "FragmentManager.hpp"
 
+#include <glm/glm.hpp>
+
 namespace App::Components::WorldView {
 	
 	class WorldView : public UIComponent {
@@ -38,7 +40,7 @@ namespace App::Components::WorldView {
 		std::string win_debug_name;
 
 		int64_t seed;
-		WorldGen::Biome::ID current_biome;
+		WorldGen::Biome::ID current_biome = WorldGen::Biome::ID::THE_VOID;
 
 		glm::vec2 toWorld(glm::vec2 in);
 

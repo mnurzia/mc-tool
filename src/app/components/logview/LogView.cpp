@@ -34,7 +34,7 @@ namespace App::Components::LogView {
 		ImGui::Separator();
 		for (auto line : msgs) {
 			ImGui::Text(line.time_fmt.c_str()); ImGui::NextColumn();
-			static const char* names[] = SPDLOG_LEVEL_NAMES;
+			spdlog::string_view_t names[] = SPDLOG_LEVEL_NAMES;
 			Util::Color out_color = Util::Color(255, 255, 255);
 			switch (line.level) {
 				case spdlog::level::trace:
@@ -56,7 +56,7 @@ namespace App::Components::LogView {
 					out_color = Util::Color(192,   0, 192);
 					break;
 			}
-			ImGui::TextColored(out_color, names[line.level]); ImGui::NextColumn();
+			ImGui::TextColored(out_color, names[line.level].data()); ImGui::NextColumn();
 			ImGui::Text(line.logger_name.c_str()); ImGui::NextColumn();
 			ImGui::Text(line.content.c_str()); ImGui::NextColumn();
 		}

@@ -474,7 +474,11 @@ namespace App::Components::WorldView {
 			ImGuiCond_Once,
 			ImVec2(0.5, 0.5)
 		);
-		if (ImGui::Begin(win_viewer_name.c_str(), &frame_quit, ImVec2(640, 480), -1, ImGuiWindowFlags_MenuBar)) {
+		ImGui::SetNextWindowSize(
+			ImVec2(640, 480),
+			ImGuiCond_Once
+		);
+		if (ImGui::Begin(win_viewer_name.c_str(), &frame_quit,  ImGuiWindowFlags_MenuBar)) {
 			drawMenuBar();
 			drawInfo();
 			ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(0.0f, 0.0f));
